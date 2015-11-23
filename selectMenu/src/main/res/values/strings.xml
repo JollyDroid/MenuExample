@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenuExample</string>
+    <string name="word_foo">Foo</string>
+    <string name="word_bar">Bar</string>
+    <string name="word_baz">Baz</string>
+    <string name="word_camera">Camera</string>
+    <string name="word_compass">Compass</string>
+</resources>

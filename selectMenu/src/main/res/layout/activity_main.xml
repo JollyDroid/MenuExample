@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jollydroid.menuexample.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When users select text in your app, you can now display text selection actions such as Cut, Copy, and Paste in a floating toolbar. The user interaction implementation is similar to that for the contextual action bar, as described in Enabling the contextual action mode for individual views."/>
+
+    <EditText
+        android:id="@+id/edit_text_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To implement a floating toolbar for text selection, make the following changes in your existing apps:"/>
+
+
+
+</LinearLayout>
