@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
-                // родные пункты меню "нумеруются" с 1, дополнительные - со 100
+    /*            // родные пункты меню "нумеруются" с 1, дополнительные - со 100
                 while (menu.getItem(0).getOrder() < 100) {
                     MenuItem item = menu.getItem(0);
                     menu.removeItem(item.getItemId());
@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
                     menu.add(item.getGroupId(), item.getItemId(),
                             item.getOrder() + 200, item.getTitle());
                 }
-                return true;
+                return true;*/
+                return false;
             }
 
             @Override
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_foo:
                 toast("foo");
                 return true;
-            case R.id.action_bar:
+            case R.id.action_foobar:
                 toast("bar");
                 return true;
             case R.id.action_baz:

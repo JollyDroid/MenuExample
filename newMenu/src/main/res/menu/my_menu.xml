@@ -9,7 +9,7 @@
         app:showAsAction="ifRoom"
         />
     <item
-        android:id="@+id/action_bar"
+        android:id="@+id/action_foobar"
         android:icon="@android:drawable/ic_media_next"
         android:orderInCategory="101"
         android:title="@string/word_bar"

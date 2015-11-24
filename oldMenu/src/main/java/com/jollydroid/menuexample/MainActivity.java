@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_foo:
                 toast("foo");
                 return true;
-            case R.id.action_bar:
+            case R.id.action_foobar:
                 toast("bar");
                 return true;
             case R.id.action_baz:
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_foo:
                 toast("foo");
                 return true;
-            case R.id.action_bar:
+            case R.id.action_foobar:
                 toast("bar");
                 return true;
             case R.id.action_baz:
